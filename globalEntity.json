@@ -1,15 +1,16 @@
 {
-  "numberOfUsers": 1000,
-  "totalTradeVolume": 500000,
+  "numberOfUsers": 1200,
+  "totalTradeVolume": 550000,
   "listOfSwapPools": [
     "0x123456789abcdef0123456789abcdef012345678",
     "0xabcdef0123456789abcdef0123456789abcdef012",
-    "0x56789abcdef0123456789abcdef0123456789abc"
+    "0x56789abcdef0123456789abcdef0123456789abc",
+    "0x9876543210abcdef0123456789abcdef01234567"
   ],
-  "lastTradeDate": "2023-12-07T12:30:45Z",
+  "lastTradeDate": "2023-12-08T08:15:00Z",
   "biggestTrade": {
     "user": "0x987654321abcdef0987654321abcdef098765432",
-    "volume": 75000,
-    "timestamp": "2023-12-06T18:45:30Z"
+    "volume": 85000,
+    "timestamp": "2023-12-07T09:30:00Z"
   }
 }
