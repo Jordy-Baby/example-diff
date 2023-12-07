@@ -1,0 +1,15 @@
+{
+  "numberOfUsers": 1000,
+  "totalTradeVolume": 500000,
+  "listOfSwapPools": [
+    "0x123456789abcdef0123456789abcdef012345678",
+    "0xabcdef0123456789abcdef0123456789abcdef012",
+    "0x56789abcdef0123456789abcdef0123456789abc"
+  ],
+  "lastTradeDate": "2023-12-07T12:30:45Z",
+  "biggestTrade": {
+    "user": "0x987654321abcdef0987654321abcdef098765432",
+    "volume": 75000,
+    "timestamp": "2023-12-06T18:45:30Z"
+  }
+}
