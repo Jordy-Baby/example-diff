@@ -30,26 +30,26 @@
     "address": "0x0123456789abcdef0123456789abcdef01234567",
     "username": "user2",
     "email": "user2@example.com",
-    "balance": 75.8,
+    "balance": 80.0,
     "tokens": {
-      "ETH": 7.2,
+      "ETH": 7.5,
       "LINK": 50,
       "WBTC": 2
     },
-    "lastLogin": "2023-12-07T09:00:15Z",
+    "lastLogin": "2023-12-07T09:30:45Z",
     "transactions": [
       {
         "type": "Swap",
         "pair": "LINK-WBTC",
-        "amount": 1.5,
-        "timestamp": "2023-12-06T16:45:30Z"
+        "amount": 2.0,
+        "timestamp": "2023-12-06T17:30:00Z"
       },
       {
         "type": "Transfer",
         "token": "ETH",
-        "amount": 3.0,
+        "amount": 4.0,
         "to": "0x9876543210abcdef09876543210abcdef0987654",
-        "timestamp": "2023-12-05T20:10:00Z"
+        "timestamp": "2023-12-05T21:45:15Z"
       }
     ]
   },
@@ -59,24 +59,43 @@
     "email": "user3@example.com",
     "balance": 200.0,
     "tokens": {
-      "DAI": 300,
+      "DAI": 350,
       "USDT": 100,
       "UNI": 25
     },
-    "lastLogin": "2023-12-07T11:45:00Z",
+    "lastLogin": "2023-12-07T12:15:00Z",
     "transactions": [
       {
         "type": "Swap",
         "pair": "DAI-USDT",
-        "amount": 50.0,
-        "timestamp": "2023-12-06T12:10:20Z"
+        "amount": 60.0,
+        "timestamp": "2023-12-06T13:30:45Z"
       },
       {
         "type": "Transfer",
         "token": "UNI",
-        "amount": 10,
+        "amount": 15,
         "to": "0x9876543210abcdef09876543210abcdef0987654",
-        "timestamp": "2023-12-05T22:40:30Z"
+        "timestamp": "2023-12-05T23:30:00Z"
+      }
+    ]
+  },
+  {
+    "address": "0x7890123456789abcdef0123456789abcdef012345",
+    "username": "user4",
+    "email": "user4@example.com",
+    "balance": 50.0,
+    "tokens": {
+      "BTC": 5,
+      "ETH": 20
+    },
+    "lastLogin": "2023-12-07T13:00:00Z",
+    "transactions": [
+      {
+        "type": "Buy",
+        "pair": "BTC-ETH",
+        "amount": 2.5,
+        "timestamp": "2023-12-07T13:05:30Z"
       }
     ]
   }
