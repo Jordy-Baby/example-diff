@@ -1,0 +1,83 @@
+[
+  {
+    "address": "0xabcdef1234567890abcdef1234567890abcdef12",
+    "username": "user1",
+    "email": "user1@example.com",
+    "balance": 150.25,
+    "tokens": {
+      "ETH": 10.5,
+      "DAI": 200,
+      "USDC": 500
+    },
+    "lastLogin": "2023-12-07T10:15:30Z",
+    "transactions": [
+      {
+        "type": "Swap",
+        "pair": "ETH-DAI",
+        "amount": 5.0,
+        "timestamp": "2023-12-06T14:20:45Z"
+      },
+      {
+        "type": "Transfer",
+        "token": "USDC",
+        "amount": 100,
+        "to": "0x9876543210abcdef09876543210abcdef0987654",
+        "timestamp": "2023-12-05T18:30:00Z"
+      }
+    ]
+  },
+  {
+    "address": "0x0123456789abcdef0123456789abcdef01234567",
+    "username": "user2",
+    "email": "user2@example.com",
+    "balance": 75.8,
+    "tokens": {
+      "ETH": 7.2,
+      "LINK": 50,
+      "WBTC": 2
+    },
+    "lastLogin": "2023-12-07T09:00:15Z",
+    "transactions": [
+      {
+        "type": "Swap",
+        "pair": "LINK-WBTC",
+        "amount": 1.5,
+        "timestamp": "2023-12-06T16:45:30Z"
+      },
+      {
+        "type": "Transfer",
+        "token": "ETH",
+        "amount": 3.0,
+        "to": "0x9876543210abcdef09876543210abcdef0987654",
+        "timestamp": "2023-12-05T20:10:00Z"
+      }
+    ]
+  },
+  {
+    "address": "0x456789abcdef0123456789abcdef0123456789012",
+    "username": "user3",
+    "email": "user3@example.com",
+    "balance": 200.0,
+    "tokens": {
+      "DAI": 300,
+      "USDT": 100,
+      "UNI": 25
+    },
+    "lastLogin": "2023-12-07T11:45:00Z",
+    "transactions": [
+      {
+        "type": "Swap",
+        "pair": "DAI-USDT",
+        "amount": 50.0,
+        "timestamp": "2023-12-06T12:10:20Z"
+      },
+      {
+        "type": "Transfer",
+        "token": "UNI",
+        "amount": 10,
+        "to": "0x9876543210abcdef09876543210abcdef0987654",
+        "timestamp": "2023-12-05T22:40:30Z"
+      }
+    ]
+  }
+]
